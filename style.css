@@ -1,0 +1,129 @@
+/*
+
+*/
+
+.hootproof_like_box {
+   max-width: 340px;
+   margin: 10px 0 15px 0;
+}
+.htpr_page_header {
+   height: 110px;
+   background-size: cover;
+  /* background-position-y: -24px;*/s
+}
+
+.htpr_page_info {
+   padding: 8px;
+   color: #fff;
+   text-shadow: 0 2px 4px rgba(0, 0, 0, .9);x
+}
+htpr_page_info_inner {
+   float:left;
+}
+
+.htpr_page_info_inner a {
+   color: #fff !important;
+   text-shadow: 0 2px 4px rgba(0, 0, 0, .9);
+   max-width: 240px;
+   display: inline-block;
+   font-size: 18px;
+	font-weight: 500;
+	line-height: 1.358;
+	margin-bottom: -5px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+  opacity: 1 important;
+}
+.htpr_page_info_inner a:hover {
+   color: #fff;
+   text-shadow: 0 2px 4px rgba(0, 0, 0, .9);
+   text-decoration: underline;
+}
+
+.htpr_page_info_inner .htpr_page_name {
+  line-height: 18px;
+}
+
+.htpr_page_likes {
+   font-size: 12px;
+}
+
+.htpr_page_photo {
+   margin-right: 8px;
+   float: left;
+   border: 2px solid #fff;
+   box-shadow: 0 1px 6px rgba(0, 0, 0, .5);
+}
+.htpr_like_button {
+  /* float:right;
+   position:relative;
+   bottom: 5px;*/
+}
+
+
+.htpr_feed_container {
+   background: #f6f7f8;
+    border: 1px solid #e9eaed;
+    border-top: 0;
+    overflow-y: auto;
+   font-size: 11px;
+   padding: 5px 8px;
+}
+
+.htpr_feed_container h4 {
+   font-size: 14px;
+   margin: 5px 8px;
+}
+
+.htpr_single_post {
+   display: block;
+   margin: 5px 0;
+   background: #fff;
+   padding: 12px 12px;   
+}
+
+.htpr_single_post p {
+   margin-bottom: 0 !important;
+}
+
+.htpr_post_image {
+   float:left;
+   margin: 4px 8px 0 0;
+}
+.htpr_single_post a {
+   color: #3b5998;
+   font-weight: bold;
+}
+
+.htpr_widget_info  {
+  background: #f6f7f8;
+    border: 1px solid #e9eaed;
+    border-top: 0;
+    overflow-y: auto;
+   font-size: 11px;
+   padding: 5px 8px;
+}
+
+.htpr_widget_more_info a {
+  color: #000 !important;
+}
+
+.htpr_widget_more_info {
+  display: none;
+}
+
+.htpr_widget_info:hover .htpr_widget_more_info {
+  display: block;
+}
+
+.htpr_page_info {
+   padding: 8px;
+   color: #fff;
+   text-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+   background: -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,1)); /*Safari 5.1-6*/
+   background: -o-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,1)); /*Opera 11.1-12*/
+   background: -moz-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,1)); /*Fx 3.6-15*/
+   background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,1)); /*Standard*/
+}
+
